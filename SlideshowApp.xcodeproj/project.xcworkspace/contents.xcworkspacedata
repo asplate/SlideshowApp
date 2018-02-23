@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SlidedhowApp.xcodeproj">
+      location = "self:/Users/nachi/Desktop/xcodeProject/slideshowApp/SlidedhowApp/SlideshowApp.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068486BB20392CF4000ABAB2 /* cat04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 068486BA20392CF3000ABAB2 /* cat04.jpg */; };
+		069F153920395663000CAE14 /* cat01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 069F153820395663000CAE14 /* cat01.jpg */; };
+		069F153B2039567E000CAE14 /* cat02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 069F153A2039567E000CAE14 /* cat02.jpg */; };
+		069F153D20395691000CAE14 /* cat03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 069F153C20395691000CAE14 /* cat03.jpg */; };
+		069F153F20398DC3000CAE14 /* zoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F153E20398DC3000CAE14 /* zoomImageViewController.swift */; };
 		06BF498E2039045100EF5148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF498D2039045100EF5148 /* AppDelegate.swift */; };
 		06BF49902039045100EF5148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF498F2039045100EF5148 /* ViewController.swift */; };
 		06BF49932039045100EF5148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF49912039045100EF5148 /* Main.storyboard */; };
 		06BF49952039045100EF5148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BF49942039045100EF5148 /* Assets.xcassets */; };
 		06BF49982039045100EF5148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF49962039045100EF5148 /* LaunchScreen.storyboard */; };
-		06BF49A32039045100EF5148 /* SlidedhowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF49A22039045100EF5148 /* SlidedhowAppTests.swift */; };
-		06BF49AE2039045100EF5148 /* SlidedhowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF49AD2039045100EF5148 /* SlidedhowAppUITests.swift */; };
+		06BF49A32039045100EF5148 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF49A22039045100EF5148 /* SlideshowAppTests.swift */; };
+		06BF49AE2039045100EF5148 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF49AD2039045100EF5148 /* SlideshowAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06BF498A2039045100EF5148 /* SlidedhowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidedhowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068486BA20392CF3000ABAB2 /* cat04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat04.jpg; sourceTree = "<group>"; };
+		069F153820395663000CAE14 /* cat01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat01.jpg; sourceTree = "<group>"; };
+		069F153A2039567E000CAE14 /* cat02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat02.jpg; sourceTree = "<group>"; };
+		069F153C20395691000CAE14 /* cat03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat03.jpg; sourceTree = "<group>"; };
+		069F153E20398DC3000CAE14 /* zoomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoomImageViewController.swift; sourceTree = "<group>"; };
+		06BF498A2039045100EF5148 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BF498D2039045100EF5148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06BF498F2039045100EF5148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06BF49922039045100EF5148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06BF49942039045100EF5148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06BF49972039045100EF5148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06BF49992039045100EF5148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06BF499E2039045100EF5148 /* SlidedhowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidedhowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06BF49A22039045100EF5148 /* SlidedhowAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidedhowAppTests.swift; sourceTree = "<group>"; };
+		06BF499E2039045100EF5148 /* SlideshowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BF49A22039045100EF5148 /* SlideshowAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppTests.swift; sourceTree = "<group>"; };
 		06BF49A42039045100EF5148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06BF49A92039045100EF5148 /* SlidedhowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidedhowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06BF49AD2039045100EF5148 /* SlidedhowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidedhowAppUITests.swift; sourceTree = "<group>"; };
+		06BF49A92039045100EF5148 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BF49AD2039045100EF5148 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		06BF49AF2039045100EF5148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BF49C1203919A200EF5148 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		06BF49C2203919A200EF5148 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +89,9 @@
 		06BF49812039045100EF5148 = {
 			isa = PBXGroup;
 			children = (
-				06BF498C2039045100EF5148 /* SlidedhowApp */,
-				06BF49A12039045100EF5148 /* SlidedhowAppTests */,
-				06BF49AC2039045100EF5148 /* SlidedhowAppUITests */,
+				06BF498C2039045100EF5148 /* SlideshowApp */,
+				06BF49A12039045100EF5148 /* SlideshowAppTests */,
+				06BF49AC2039045100EF5148 /* SlideshowAppUITests */,
 				06BF498B2039045100EF5148 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +99,55 @@
 		06BF498B2039045100EF5148 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06BF498A2039045100EF5148 /* SlidedhowApp.app */,
-				06BF499E2039045100EF5148 /* SlidedhowAppTests.xctest */,
-				06BF49A92039045100EF5148 /* SlidedhowAppUITests.xctest */,
+				06BF498A2039045100EF5148 /* SlideshowApp.app */,
+				06BF499E2039045100EF5148 /* SlideshowAppTests.xctest */,
+				06BF49A92039045100EF5148 /* SlideshowAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06BF498C2039045100EF5148 /* SlidedhowApp */ = {
+		06BF498C2039045100EF5148 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
 				06BF498D2039045100EF5148 /* AppDelegate.swift */,
+				069F153820395663000CAE14 /* cat01.jpg */,
+				069F153A2039567E000CAE14 /* cat02.jpg */,
+				069F153C20395691000CAE14 /* cat03.jpg */,
 				06BF498F2039045100EF5148 /* ViewController.swift */,
+				068486BA20392CF3000ABAB2 /* cat04.jpg */,
 				06BF49912039045100EF5148 /* Main.storyboard */,
 				06BF49942039045100EF5148 /* Assets.xcassets */,
 				06BF49962039045100EF5148 /* LaunchScreen.storyboard */,
 				06BF49992039045100EF5148 /* Info.plist */,
+				069F153E20398DC3000CAE14 /* zoomImageViewController.swift */,
 			);
-			path = SlidedhowApp;
+			path = SlideshowApp;
 			sourceTree = "<group>";
 		};
-		06BF49A12039045100EF5148 /* SlidedhowAppTests */ = {
+		06BF49A12039045100EF5148 /* SlideshowAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				06BF49A22039045100EF5148 /* SlidedhowAppTests.swift */,
+				06BF49A22039045100EF5148 /* SlideshowAppTests.swift */,
 				06BF49A42039045100EF5148 /* Info.plist */,
 			);
-			path = SlidedhowAppTests;
+			path = SlideshowAppTests;
 			sourceTree = "<group>";
 		};
-		06BF49AC2039045100EF5148 /* SlidedhowAppUITests */ = {
+		06BF49AC2039045100EF5148 /* SlideshowAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				06BF49AD2039045100EF5148 /* SlidedhowAppUITests.swift */,
+				06BF49AD2039045100EF5148 /* SlideshowAppUITests.swift */,
 				06BF49AF2039045100EF5148 /* Info.plist */,
 			);
-			path = SlidedhowAppUITests;
+			path = SlideshowAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06BF49892039045100EF5148 /* SlidedhowApp */ = {
+		06BF49892039045100EF5148 /* SlideshowApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06BF49B22039045100EF5148 /* Build configuration list for PBXNativeTarget "SlidedhowApp" */;
+			buildConfigurationList = 06BF49B22039045100EF5148 /* Build configuration list for PBXNativeTarget "SlideshowApp" */;
 			buildPhases = (
 				06BF49862039045100EF5148 /* Sources */,
 				06BF49872039045100EF5148 /* Frameworks */,
@@ -140,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = SlidedhowApp;
+			name = SlideshowApp;
 			productName = SlidedhowApp;
-			productReference = 06BF498A2039045100EF5148 /* SlidedhowApp.app */;
+			productReference = 06BF498A2039045100EF5148 /* SlideshowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06BF499D2039045100EF5148 /* SlidedhowAppTests */ = {
+		06BF499D2039045100EF5148 /* SlideshowAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06BF49B52039045100EF5148 /* Build configuration list for PBXNativeTarget "SlidedhowAppTests" */;
+			buildConfigurationList = 06BF49B52039045100EF5148 /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */;
 			buildPhases = (
 				06BF499A2039045100EF5148 /* Sources */,
 				06BF499B2039045100EF5148 /* Frameworks */,
@@ -158,14 +175,14 @@
 			dependencies = (
 				06BF49A02039045100EF5148 /* PBXTargetDependency */,
 			);
-			name = SlidedhowAppTests;
+			name = SlideshowAppTests;
 			productName = SlidedhowAppTests;
-			productReference = 06BF499E2039045100EF5148 /* SlidedhowAppTests.xctest */;
+			productReference = 06BF499E2039045100EF5148 /* SlideshowAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06BF49A82039045100EF5148 /* SlidedhowAppUITests */ = {
+		06BF49A82039045100EF5148 /* SlideshowAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06BF49B82039045100EF5148 /* Build configuration list for PBXNativeTarget "SlidedhowAppUITests" */;
+			buildConfigurationList = 06BF49B82039045100EF5148 /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */;
 			buildPhases = (
 				06BF49A52039045100EF5148 /* Sources */,
 				06BF49A62039045100EF5148 /* Frameworks */,
@@ -176,9 +193,9 @@
 			dependencies = (
 				06BF49AB2039045100EF5148 /* PBXTargetDependency */,
 			);
-			name = SlidedhowAppUITests;
+			name = SlideshowAppUITests;
 			productName = SlidedhowAppUITests;
-			productReference = 06BF49A92039045100EF5148 /* SlidedhowAppUITests.xctest */;
+			productReference = 06BF49A92039045100EF5148 /* SlideshowAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06BF49852039045100EF5148 /* Build configuration list for PBXProject "SlidedhowApp" */;
+			buildConfigurationList = 06BF49852039045100EF5148 /* Build configuration list for PBXProject "SlideshowApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06BF49892039045100EF5148 /* SlidedhowApp */,
-				06BF499D2039045100EF5148 /* SlidedhowAppTests */,
-				06BF49A82039045100EF5148 /* SlidedhowAppUITests */,
+				06BF49892039045100EF5148 /* SlideshowApp */,
+				06BF499D2039045100EF5148 /* SlideshowAppTests */,
+				06BF49A82039045100EF5148 /* SlideshowAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,8 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				06BF49982039045100EF5148 /* LaunchScreen.storyboard in Resources */,
+				069F153B2039567E000CAE14 /* cat02.jpg in Resources */,
+				069F153920395663000CAE14 /* cat01.jpg in Resources */,
 				06BF49952039045100EF5148 /* Assets.xcassets in Resources */,
 				06BF49932039045100EF5148 /* Main.storyboard in Resources */,
+				068486BB20392CF4000ABAB2 /* cat04.jpg in Resources */,
+				069F153D20395691000CAE14 /* cat03.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06BF49902039045100EF5148 /* ViewController.swift in Sources */,
+				069F153F20398DC3000CAE14 /* zoomImageViewController.swift in Sources */,
 				06BF498E2039045100EF5148 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BF49A32039045100EF5148 /* SlidedhowAppTests.swift in Sources */,
+				06BF49A32039045100EF5148 /* SlideshowAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BF49AE2039045100EF5148 /* SlidedhowAppUITests.swift in Sources */,
+				06BF49AE2039045100EF5148 /* SlideshowAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		06BF49A02039045100EF5148 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06BF49892039045100EF5148 /* SlidedhowApp */;
+			target = 06BF49892039045100EF5148 /* SlideshowApp */;
 			targetProxy = 06BF499F2039045100EF5148 /* PBXContainerItemProxy */;
 		};
 		06BF49AB2039045100EF5148 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06BF49892039045100EF5148 /* SlidedhowApp */;
+			target = 06BF49892039045100EF5148 /* SlideshowApp */;
 			targetProxy = 06BF49AA2039045100EF5148 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -300,6 +322,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				06BF49922039045100EF5148 /* Base */,
+				06BF49C1203919A200EF5148 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +331,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				06BF49972039045100EF5148 /* Base */,
+				06BF49C2203919A200EF5148 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -427,9 +453,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SlidedhowApp/Info.plist;
+				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlidedhowApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +467,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SlidedhowApp/Info.plist;
+				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlidedhowApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,13 +482,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SlidedhowAppTests/Info.plist;
+				INFOPLIST_FILE = SlideshowAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlidedhowAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlideshowAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidedhowApp.app/SlidedhowApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideshowApp.app/SlideshowApp";
 			};
 			name = Debug;
 		};
@@ -472,13 +498,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SlidedhowAppTests/Info.plist;
+				INFOPLIST_FILE = SlideshowAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlidedhowAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlideshowAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidedhowApp.app/SlidedhowApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideshowApp.app/SlideshowApp";
 			};
 			name = Release;
 		};
@@ -487,9 +513,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SlidedhowAppUITests/Info.plist;
+				INFOPLIST_FILE = SlideshowAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlidedhowAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlideshowAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,9 +528,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SlidedhowAppUITests/Info.plist;
+				INFOPLIST_FILE = SlideshowAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlidedhowAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.asplate.SlideshowAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06BF49852039045100EF5148 /* Build configuration list for PBXProject "SlidedhowApp" */ = {
+		06BF49852039045100EF5148 /* Build configuration list for PBXProject "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06BF49B02039045100EF5148 /* Debug */,
@@ -524,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06BF49B22039045100EF5148 /* Build configuration list for PBXNativeTarget "SlidedhowApp" */ = {
+		06BF49B22039045100EF5148 /* Build configuration list for PBXNativeTarget "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06BF49B32039045100EF5148 /* Debug */,
@@ -533,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06BF49B52039045100EF5148 /* Build configuration list for PBXNativeTarget "SlidedhowAppTests" */ = {
+		06BF49B52039045100EF5148 /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06BF49B62039045100EF5148 /* Debug */,
@@ -542,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06BF49B82039045100EF5148 /* Build configuration list for PBXNativeTarget "SlidedhowAppUITests" */ = {
+		06BF49B82039045100EF5148 /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06BF49B92039045100EF5148 /* Debug */,
