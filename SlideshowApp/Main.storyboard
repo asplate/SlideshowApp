@@ -33,8 +33,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoA-9p-EBD">
-                                <rect key="frame" x="253" y="487" width="66" height="30"/>
-                                <state key="normal" title="再生/停止"/>
+                                <rect key="frame" x="253" y="487" width="31" height="30"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0kf-iv-8mL"/>
                                 </connections>
@@ -92,8 +92,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="nextButton" destination="16h-o8-vpo" id="3vl-DO-8aW"/>
+                        <outlet property="prevButton" destination="ZCI-OH-5cQ" id="htg-fZ-Ygh"/>
                         <outlet property="slide01" destination="92f-Gs-VXG" id="42t-bk-uuj"/>
                         <outlet property="slideNum" destination="Ikw-WC-cLF" id="vyB-UD-2rr"/>
+                        <outlet property="startButton" destination="hoA-9p-EBD" id="NZC-Ac-7co"/>
                         <outlet property="timerLabel" destination="9Bc-6n-y4N" id="mbc-gG-Lad"/>
                         <segue destination="QJl-vf-ntu" kind="show" identifier="zoomImage" id="o4H-2b-8s0"/>
                     </connections>

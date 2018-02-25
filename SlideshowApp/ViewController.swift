@@ -11,7 +11,11 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var slide01: UIImageView!
     
-
+    @IBOutlet weak var nextButton: UIButton!
+    
+    @IBOutlet weak var prevButton: UIButton!
+    @IBOutlet weak var startButton: UIButton!
+    
     var current_slide = 0
     var playing = false
     var canNext = true
@@ -25,7 +29,7 @@ class ViewController: UIViewController {
         "cat01.jpg",
         "cat02.jpg",
         "cat03.jpg",
-    ]
+        ]
     
     @IBOutlet weak var timerLabel: UILabel!
     
@@ -58,24 +62,25 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func startButton(_ sender:
-        Any) {
-
+    @IBAction func startButton(_ sender: Any) {
+        
         if (playing == true) {
             playing = false
-            canNext = true
-            canPrev = true
+            nextButton.isEnabled = true
+            prevButton.isEnabled = true
             
             if self.timer != nil {
                 self.timer.invalidate()   // 現在のタイマーを破棄する
                 self.timer = nil          // startTimer() の timer == nil で判断するために、 timer = nil としておく
+                startButton.setTitle("再生", for: .normal)
             }
             
             
         }else{
             playing = true
-            canNext = false
-            canPrev = false
+            nextButton.isEnabled = false
+            prevButton.isEnabled = false
+            startButton.setTitle("停止", for: .normal)
             
             if self.timer == nil {
                 self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
@@ -90,23 +95,23 @@ class ViewController: UIViewController {
         self.timer_sec += 0.1
         //２で割ったあまりが0の時 %使用不可
         //if(self.timer_sec.truncatingRemainder(dividingBy: 2.0) == 0 ) {
-            
-            
-            if (self.current_slide == 2) {
-                self.current_slide = -1
-            }
-            
-            self.current_slide += 1
-            
-            
-            
+        
+        
+        if (self.current_slide == 2) {
+            self.current_slide = -1
+        }
+        
+        self.current_slide += 1
+        
+        
+        
         //}
         self.slideNum.text = String(self.current_slide)
         self.slide01.image = UIImage(named: self.slideArray[self.current_slide])
         self.timerLabel.text = String(format: "%.1f", self.timer_sec)
     }
     
-
+    
     
     
     override func viewDidLoad() {
@@ -115,13 +120,20 @@ class ViewController: UIViewController {
         
         slide01.image = UIImage(named: slideArray[current_slide])
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func onTapSlideImage(_ sender: Any) {
+        self.timer.invalidate()
+        self.timer = nil
+        playing = false
+        nextButton.isEnabled = true
+        prevButton.isEnabled = true
+        startButton.setTitle("再生", for: .normal)
+        
         // セグエを使用して画面を遷移
         performSegue(withIdentifier: "zoomImage", sender: nil)
     }
@@ -132,7 +144,7 @@ class ViewController: UIViewController {
         // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
         zoomImageViewController.zoom_slide = self.current_slide
     }
-
+    
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
     }
 }
