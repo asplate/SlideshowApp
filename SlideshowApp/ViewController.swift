@@ -127,8 +127,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTapSlideImage(_ sender: Any) {
-        self.timer.invalidate()
-        self.timer = nil
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+        }
         playing = false
         nextButton.isEnabled = true
         prevButton.isEnabled = true
